@@ -25,6 +25,7 @@ class Adapter(
         }
     }
 
+    // update the main list of course to the updated course list.
     fun filterList(filterList: List<CourseModel>) {
         courseList = filterList
         notifyDataSetChanged()
